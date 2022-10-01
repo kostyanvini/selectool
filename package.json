@@ -1,0 +1,31 @@
+{
+    "name": "selectool",
+    "version": "1.0.0",
+    "description": "A simple and small library for custom select html element",
+    "main": "./dist/selectool.esm.js",
+    "scripts": {
+        "dev": "rollup -c -w",
+        "compile": "rollup -c"
+    },
+    "keywords": [
+        "select",
+        "small library",
+        "simple library",
+        "custom select library",
+        "custom select",
+        "select library"
+    ],
+    "author": "Konstantin Ratyukov",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kostyanvini/selectool"
+    },
+    "devDependencies": {
+        "@babel/preset-env": "^7.19.3",
+        "@rollup/plugin-babel": "^5.3.1",
+        "autoprefixer": "^10.4.12",
+        "rollup": "^2.79.0",
+        "rollup-plugin-postcss": "^4.0.2"
+    }
+}

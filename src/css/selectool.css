@@ -1,0 +1,46 @@
+[data-selectool] {
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+.selectool {
+	border: 1px solid #f3f3f3;
+	position: relative;
+	width: 100%;
+}
+.selectool._open .selectool__options {
+	display: block;
+}
+.selectool__options {
+	display: none;
+	max-height: 300px;
+	overflow: auto;
+	position: absolute;
+	left: 0;
+	width: 100%;
+}
+.selectool__current {
+	cursor: pointer;
+	padding: 10px 30px 10px 10px;
+	font-weight: 700;
+	background: #a7c7ff;
+}
+.selectool__current:hover {
+	background: #c7dbff;
+}
+.selectool__option {
+	cursor: pointer;
+	transition: 0.3s;
+	padding: 10px;
+	background: #cbd3e1;
+}
+.selectool__option.is-disabled {
+	cursor: default;
+	background: #fff;
+}
+.selectool__option.is-disabled:hover {
+	background: #fff;
+}
+.selectool__option:hover {
+	background: #e6efff;
+}
